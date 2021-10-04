@@ -8,9 +8,7 @@ const ExpenseItem = (props) => {
    const [title,setTitle] = useState(props.data.title);
 
     const handleClick = (event) => {
-        //console.log("event----",event);
-        setTitle('updated');
-        console.log("title----",title);
+        setTitle(title);
     }
      console.log("compo");
 
